@@ -6,3 +6,31 @@
 canvas {
     border: 1px solid #c92020;
 }
+.box{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 4px;
+    align-items: center;
+    flex-direction: row; 
+  
+}
+button{
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    margin-right: 160px;
+    color: #ffffff;
+    border-radius: 15px;
+   
+
+}
+button:hover{
+    background-color: rgb(235, 53, 12);
+}
+
+#score {
+    font-size: 60px;
+    
+}
